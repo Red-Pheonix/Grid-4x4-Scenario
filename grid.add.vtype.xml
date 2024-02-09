@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-08 10:34:43 by Eclipse SUMO duarouter Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="arterial4x4.net.xml"/>
+        <route-files value="/home/red/sumo-scenarios/grid4x4/morning/morning.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/red/sumo-scenarios/grid4x4/morning/morning.rou.xml.tmp"/>
+        <vtype-output value="/home/red/sumo-scenarios/grid4x4/morning/morning.add.vtype.xml"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional>
+    <vTypeDistribution id="griddist1" >
+        <vType id="Car" vClass="passenger" probability="0.58" color="#FFFF00"/>
+        <vType id="Bus" vClass="bus" probability="0.02" color="#0000FF"/>
+        <vType id="MotorCycle" vClass="motorcycle" probability="0.2" color="#00FF00"/>
+        <vType id="Bicycle" vClass="bicycle" probability="0.2" color="#00FFFF"/>
+    </vTypeDistribution>
+
+    <vTypeDistribution id="griddistrandom" >
+        <vType id="CarRandom" vClass="passenger" probability="0.5" color="#FFFF00"/>
+        <vType id="MotorCycleRandom" vClass="motorcycle" probability="0.2" color="#00FF00"/>
+        <vType id="BicycleRandom" vClass="bicycle" probability="0.2" color="#00FFFF"/>
+        <vType id="DeliveryRandom" vClass="delivery" probability="0.07" color="#FF0000"/>
+        <vType id="EmergencyRandom" vClass="emergency" probability="0.03" color="#EEEEEE"/>
+    </vTypeDistribution>
+
+</additional>
