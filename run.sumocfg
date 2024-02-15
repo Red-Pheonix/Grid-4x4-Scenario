@@ -8,14 +8,33 @@
     <input>
       <net-file value="grid4x4.net.xml"/>
       <additional-files value="grid.add.vtype.xml"/>
+      <!-- <additional-files value="grid.add.vtype.xml, road_block_1.add.xml, road_block_2.add.xml"/> -->
       <!-- <route-files value="morning/morning.rou.xml"/> -->
       <!-- <route-files value="evening/evening.rou.xml"/> -->
-      <route-files value="random.rou.xml, morning/morning.rou.xml"/>
+      <!-- <route-files value="random.rou.xml, morning/morning.rou.xml"/> -->
+      <route-files value="pse/pse.rou.xml"/>
     </input>
     
-    <time>
+  <time>
     <begin value="0"/>
-    <end value="3600"/> 
+    <end value="3600"/>
+    <step-length value="1" /> 
   </time>
+
+  <processing>
+    <scale value="1" />
+    <threads value="16" />
+    <random-depart-offset value="10" />
+    <ignore-route-errors value="true" />
+  </processing>
+
+  <routing>
+    <weights.random-factor value="3" />
+    <device.rerouting.probability value="0.5" />
+  </routing>
+
+  <random_number>
+    <random value="true" />
+  </random_number>
 
 </configuration>

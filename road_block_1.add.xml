@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-16 00:40:23 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Other additionals -->
+    <rerouter id="road_blocker_NS" edges="nt14_nt10" pos="215.34,538.57">
+        <interval begin="0.00" end="3600.00">
+            <closingReroute id="nt14_nt10" disallow="all"/>
+        </interval>
+    </rerouter>
+    <rerouter id="road_blocker_SN" edges="nt10_nt14" pos="309.81,604.51">
+        <interval begin="0.00" end="3600.00">
+            <closingReroute id="nt10_nt14" disallow="all"/>
+        </interval>
+    </rerouter>
+</additional>
