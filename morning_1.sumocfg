@@ -9,10 +9,6 @@
       <net-file value="grid4x4.net.xml"/>
       <route-files value="random.rou.xml, morning/morning.rou.xml"/>
       <additional-files value="grid.add.vtype.xml"/>
-      <!-- <route-files value="morning/morning.rou.xml"/> -->
-      <!-- <route-files value="evening/evening.rou.xml"/> -->
-      <!-- <route-files value="pse/pse.rou.xml"/> -->
-      <!-- <additional-files value="grid.add.vtype.xml, road_block_1.add.xml, road_block_2.add.xml"/> -->
     </input>
     
   <time>
