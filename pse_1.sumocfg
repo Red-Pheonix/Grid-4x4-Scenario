@@ -7,7 +7,7 @@
 
     <input>
       <net-file value="grid4x4.net.xml"/>
-      <route-files value="random.rou.xml, pse/pse.rou.xml"/>
+      <route-files value="random.rou.xml, pse/pse.rou.xml, evening/evening.rou.xml"/>
       <additional-files value="grid.add.vtype.xml"/>
     </input>
     
