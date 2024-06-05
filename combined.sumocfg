@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-01 00:35:24 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+      <net-file value="grid4x4.net.xml"/>
+      <route-files value="combined/morning_6.rou.xml, combined/morning_7.rou.xml, combined/morning_8.rou.xml, combined/morning_9.rou.xml, combined/morning_10.rou.xml,
+      combined/evening_15.rou.xml, combined/evening_16.rou.xml, combined/evening_17.rou.xml, combined/evening_18.rou.xml, combined/evening_19.rou.xml, combined/evening_20.rou.xml,
+      combined/pse_19.rou.xml, combined/pse_20.rou.xml,
+      combined/random_9.rou.xml, combined/random_10.rou.xml, combined/random_11.rou.xml, combined/random_12.rou.xml, combined/random_13.rou.xml, combined/random_14.rou.xml, combined/random_15.rou.xml,
+      combined/random_16.rou.xml, combined/random_17.rou.xml, combined/random_18.rou.xml, combined/random_19.rou.xml, combined/random_20.rou.xml
+      "/>
+      <additional-files value="grid.add.vtype.xml"/>
+    </input>
+    
+  <time>
+    <begin value="21600"/>
+    <end value="72000"/>
+    <step-length value="1" /> 
+  </time>
+
+  <processing>
+    <scale value="1" />
+    <threads value="16" />
+    <random-depart-offset value="10" />
+    <ignore-route-errors value="true" />
+  </processing>
+
+  <routing>
+    <weights.random-factor value="3" />
+    <device.rerouting.probability value="0.5" />
+    <device.rerouting.period value= "5"/>
+    <device.rerouting.threads value="16" />
+  </routing>
+
+  <friction_device>
+    <device.friction.probability value="1" />
+    <device.friction.offset value="-0.6" />
+  </friction_device>
+
+
+</configuration>
