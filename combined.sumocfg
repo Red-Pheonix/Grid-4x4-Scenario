@@ -7,37 +7,38 @@
 
     <input>
       <net-file value="grid4x4.net.xml"/>
-      <route-files value="combined/morning_6.rou.xml, combined/morning_7.rou.xml, combined/morning_8.rou.xml, combined/morning_9.rou.xml, combined/morning_10.rou.xml,
-      combined/evening_15.rou.xml, combined/evening_16.rou.xml, combined/evening_17.rou.xml, combined/evening_18.rou.xml, combined/evening_19.rou.xml, combined/evening_20.rou.xml,
-      combined/pse_19.rou.xml, combined/pse_20.rou.xml,
-      combined/combined_random.rou.xml
-      "/>
+      <route-files value="combined2/morning.rou.xml, combined2/evening.rou.xml, combined2/pse.rou.xml, combined2/combined_random.rou.xml"/>
+      <!-- <route-files value="combined/morning_6.rou.xml"/> -->
+      <!-- <route-files value="morning/morning.rou.xml"/> -->
       <additional-files value="grid.add.vtype.xml"/>
     </input>
     
   <time>
-    <begin value="21600"/>
-    <end value="72000"/>
+    <!-- <begin value="21600"/> -->
+    <!-- <end value="25200"/> -->
+    <begin value="0"/>
+    <end value="50400"/>
+    <!-- <end value="3600"/> -->
     <step-length value="1" /> 
   </time>
 
   <processing>
     <scale value="1" />
-    <threads value="16" />
-    <random-depart-offset value="10" />
+    <!-- <threads value="16" /> -->
+    <!-- <random-depart-offset value="10" /> -->
     <ignore-route-errors value="true" />
   </processing>
 
   <routing>
-    <weights.random-factor value="3" />
+    <!-- <weights.random-factor value="3" />
     <device.rerouting.probability value="0.5" />
     <device.rerouting.period value= "5"/>
-    <device.rerouting.threads value="16" />
+    <device.rerouting.threads value="16" /> -->
   </routing>
 
   <friction_device>
-    <device.friction.probability value="1" />
-    <device.friction.offset value="-0.6" />
+    <!-- <device.friction.probability value="1" /> -->
+    <!-- <device.friction.offset value="-0.6" /> -->
   </friction_device>
 
 
