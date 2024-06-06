@@ -10,8 +10,7 @@
       <route-files value="combined/morning_6.rou.xml, combined/morning_7.rou.xml, combined/morning_8.rou.xml, combined/morning_9.rou.xml, combined/morning_10.rou.xml,
       combined/evening_15.rou.xml, combined/evening_16.rou.xml, combined/evening_17.rou.xml, combined/evening_18.rou.xml, combined/evening_19.rou.xml, combined/evening_20.rou.xml,
       combined/pse_19.rou.xml, combined/pse_20.rou.xml,
-      combined/random_9.rou.xml, combined/random_10.rou.xml, combined/random_11.rou.xml, combined/random_12.rou.xml, combined/random_13.rou.xml, combined/random_14.rou.xml, combined/random_15.rou.xml,
-      combined/random_16.rou.xml, combined/random_17.rou.xml, combined/random_18.rou.xml, combined/random_19.rou.xml, combined/random_20.rou.xml
+      combined/combined_random.rou.xml
       "/>
       <additional-files value="grid.add.vtype.xml"/>
     </input>
