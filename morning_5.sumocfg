@@ -19,7 +19,7 @@
 
   <processing>
     <scale value="1.2" />
-    <threads value="16" />
+    <!-- <threads value="16" /> -->
     <random-depart-offset value="10" />
     <ignore-route-errors value="true" />
   </processing>
